@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*banner*/
+.banner{
+    background-color: crimson;
+    .container{
+        margin: 0 auto;
+        padding: 10em 0;
+        width: 90%;
+        .row{
+            display: flex;
+            flex-direction: column;
+            .col-full-12{
+                background-color: tomato;
+                text-align: center;
+                width: 100%;
+            }
+        }
+    }
+}
